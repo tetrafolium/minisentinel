@@ -1,6 +1,6 @@
 package minisentinel
 
-import "github.com/alicebob/miniredis/server"
+import "github.com/tetrafolium/miniredis/server"
 
 func commandsPing(s *Sentinel) {
 	s.srv.Register("PING", s.cmdPing)

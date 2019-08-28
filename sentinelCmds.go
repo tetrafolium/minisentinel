@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/alicebob/miniredis/server"
+	"github.com/tetrafolium/miniredis/server"
 )
 
 const msgInvalidSentinelCommand = "ERR unknown command '%s'"

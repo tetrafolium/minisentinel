@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/FZambia/sentinel"
-	"github.com/alicebob/miniredis"
+	"github.com/tetrafolium/miniredis"
 	"github.com/gomodule/redigo/redis"
 	"github.com/matryer/is"
 )
